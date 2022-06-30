@@ -1,0 +1,28 @@
+{
+  "name": "auth-api-v2",
+  "description": "An Authentication API using Json Web Tokens & implementing refresh tokens stored in Redis in-memory database",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Ysn4Irix",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "url": "https://github.com/Ysn4Irix/auth-api-v2"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "*",
+    "express": "*",
+    "helmet": "*",
+    "http-errors": "^2.0.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.1",
+    "morgan": "*",
+    "redis": "^4.1.0",
+    "response-time": "^2.3.2"
+  }
+}
